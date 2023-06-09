@@ -5,11 +5,14 @@
 /* Overall */
 
 html {
-  
+    scroll-behavior: smooth; 
 }
 
 body {
-  
+    background-color: #4287f5;
+    color: #032761;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -39,5 +42,36 @@ p {
 }
 
 a {
-
+    color: #ffffff
 }
+
+/*Nav*/
+#nav {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+  }  
+
+  #nav li {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 40px;
+    line-height: 100px;
+  }
+
+  #nav li:hover {
+    color: cyan;
+    transition-duration: 500ms;
+    transform: scale(2);
+    border-bottom: 3px solid: #00FFFF;
+    transition-duration: 500ms;
+    cursor: pointer
+  }
+
+  /* Page Layout */
+  .section{
+    min-height: 100vh;
+  }
+  
